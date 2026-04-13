@@ -1,0 +1,31 @@
+#Fichier CSS
+:root {
+    --primary-color: #2c3e50; /* Couleur primaire */
+    --secondary-color: #3498db; /* Couleur secondaire */
+}
+
+.header {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white; /*Couleur du texte en blanc*/
+    padding: 80px 0;
+    margin-bottom: 50px;
+}
+
+.section-title {
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid var(--secondary-color);
+    display: inline-block;
+}
+.conclusion {
+    border-bottom: 3px solid #e74c3c;
+}
+
+footer {
+    background: var(--primary-color);
+    color: white; /*Couleur du texte en blanc*/
+    padding: 30px 0;
+    margin-top: 50px;
+}
